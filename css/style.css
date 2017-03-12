@@ -76,7 +76,7 @@ body {
  .pmd-card-custom-form {
    max-width: 100%;
    margin-top: 40px;
-   border: 2px solid #EB5757;
+   border: 2px solid #66b2b2;
    margin-left: 20px;
    margin-right: 20px;
  }
@@ -129,4 +129,10 @@ body {
 
 .iban {
   font-weight: bold;
+}
+
+.partecipation {
+  margin: 20px;
+  padding: 0px;
+  border-radius: 5px;
 }
