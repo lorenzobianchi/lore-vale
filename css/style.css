@@ -17,7 +17,7 @@ body {
 }
 
 .top h4 {
-  background-color: #EB5757;
+  background-color: #329999;
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
@@ -26,8 +26,18 @@ body {
   padding: 3px;
 }
 
+@media (max-width: 768px) {
+  .top h4 {
+    font-size: 10px;
+  }
+}
+
 .top p {
   color: #898989;
+}
+.mine-btn{
+  background-color: #329999;
+  color: #fff;
 }
 
 .middle h3 {
@@ -49,7 +59,7 @@ body {
 }
 
 .middle strong {
-  color: #EB5757;;
+  color: #329999;
 }
 
 .full {
@@ -93,7 +103,9 @@ body {
 
 .foot {
   text-align: center;
-  background-color: #EB5757;
+  background-color: #007373;
+  background: linear-gradient(141deg, #0fb8ad 0%, #008080 51%, #007373 75%);
+  opacity: 0.95;
   border-radius: 10px;
   color: #fff;
   height: 120px;
@@ -101,18 +113,18 @@ body {
 }
 
 .foot p {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1em;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   .foot-title {
     padding-top: 20px;
   }
 }
 
 .foot span {
-  color: #00ff00;
+  color: #CCE5E5;
 }
 
 .iban {
