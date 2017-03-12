@@ -115,3 +115,7 @@ body {
 .foot span {
   color: #00ff00;
 }
+
+.iban {
+  font-weight: bold;
+}
