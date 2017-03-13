@@ -24,6 +24,9 @@ body {
   margin-right: 38%;
   margin-left: 38%;
   padding: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: default;
 }
 
 @media (max-width: 768px) {
@@ -35,9 +38,14 @@ body {
 .top p {
   color: #898989;
 }
+
 .mine-btn{
   background-color: #329999;
   color: #fff;
+}
+
+.mine-btn:hover {
+  color: #cccccc;
 }
 
 .middle h3 {
@@ -132,7 +140,7 @@ body {
 }
 
 .partecipation {
-  margin: 20px;
-  padding: 0px;
+  margin: 30px;
+  padding: 30px;
   border-radius: 5px;
 }
